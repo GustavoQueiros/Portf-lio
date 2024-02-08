@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+body{
+    background-color:rgb(189, 241, 241);
+    padding: 0; margin: 0; box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav{
+    display: flex;
+    background-color:  rgba(16, 73, 246, 0.54) ;
+    padding: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 155px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+
+  
+}
+
+.foto{
+    width: 120px;
+    display: flex;
+    justify-content: left;
+    border-radius: 15px;
+    
+    
+}
+
+.menu li {
+    display: inline;
+    padding: 20px;
+}
+
+.menu li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+.div-nav{
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+}
+
+.m-200{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+.container{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: space-between;
+
+}
+
+.container .texto {
+    flex-direction: column;
+    font-size: 20px;
+   
+}
+
+.foto-sobre{
+    width: 300px;
+    border-radius: 10px;
+}
+
+
+.video{
+    text-align: center;
+}
+
+.footer{
+    display: flex;
+    background-color: rgba(16, 73, 246, 0.54) ;
+    padding: 20px;
+    height: 90px;
+    text-align: center; 
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    
+}
+
+.footer a img{
+    width: 60px;
+    align-items: center;
+}
+
+.footer-p{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+    color: aliceblue;
+}

@@ -1,0 +1,123 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(189, 241, 241);
+}
+
+.img-minha{
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+
+.menu-div{
+    display: flex;
+    align-items:center ;
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 120px;
+}
+
+.menu {
+    background-color: rgba(16, 73, 246, 0.54) ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:300px;
+    margin-right:300px; 
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.links li{
+    display: inline;
+    padding: 16px;
+}
+
+.links li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.links li a:hover{
+    font-size: 30px;
+    color:white;
+}
+
+.nome{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: 16%;
+}
+
+.sobre {
+    background-color: rgba(16, 73, 246, 0.54) ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:300px;
+    margin-right:300px; 
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.texto{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.foto{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.titulo-video{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: 16%;
+}
+
+.pitch{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.video{
+    text-align: center;
+    
+}
+
+.footer{
+    display: flex;
+    background-color: rgba(16, 73, 246, 0.54) ;
+    padding: 5px;
+    height: 30px;
+    text-align: center; 
+    justify-content: center;
+    flex-direction: row;
+    margin-left:300px;
+    margin-right:300px; 
+    border-radius: 20px;
+}
+
+.footer a img{
+    width: 30px;
+    align-items: center;
+}
+
+.footer-p{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+    color: black;
+}
